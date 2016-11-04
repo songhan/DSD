@@ -1,0 +1,6 @@
+{
+  "name": "DSD Model Zoo",
+  "tagline": "DSD model zoo. Better accuracy models from DSD training on Imagenet with same model architecture.",
+  "body": "## DSD Model Zoo\r\n\r\nThis repo contains pre-trained models by Dense-Sparse-Dense(DSD) training on Imagenet.\r\n\r\nCompared to conventional training method, dense→sparse→dense (DSD) training yielded higher\r\naccuracy with same model architecture.\r\n\r\nSparsity is a powerful form of regularization. Our intuition is that, once the network arrives at a\r\nlocal minimum given the sparsity constraint, relaxing the constraint gives the network more\r\nfreedom to escape the saddle point and arrive at a higher-accuracy local minimum.\r\n\r\nFeel free to use the better-accuracy DSD models to help your research.\r\n\r\n## Download:\r\n[AlexNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bYhyLGPP0nffD2k)\r\n\r\n[GoogleNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI)\r\n\r\n[VGG16_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2b0Wctt6d3NFNz3g)\r\n\r\n[SqueezeNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bgMQDqHa43dNYVM)\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
