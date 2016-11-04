@@ -12,11 +12,11 @@ freedom to escape the saddle point and arrive at a higher-accuracy local minimum
 Feel free to use the better-accuracy DSD models to help your research.
 
 ## Download:
-[AlexNet](https://1drv.ms/u/s!AkOf0kjGMRd2bYhyLGPP0nffD2k)
+[AlexNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bYhyLGPP0nffD2k)
 
-[GoogleNet](https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI)
+[GoogleNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI)
 
-[VGG16](https://1drv.ms/u/s!AkOf0kjGMRd2b0Wctt6d3NFNz3g)
+[VGG16_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2b0Wctt6d3NFNz3g)
 
-[SqueezeNet](https://1drv.ms/u/s!AkOf0kjGMRd2bgMQDqHa43dNYVM)
+[SqueezeNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bgMQDqHa43dNYVM)
 
