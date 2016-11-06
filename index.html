@@ -48,18 +48,91 @@ accuracy with same model architecture.</p>
 local minimum given the sparsity constraint, relaxing the constraint gives the network more
 freedom to escape the saddle point and arrive at a higher-accuracy local minimum.</p>
 
-<p>Feel free to use the better-accuracy DSD models to help your research.</p>
+<p>Feel free to use the better-accuracy DSD models to help your research. </p>
 
 <h2>
 <a id="download" class="anchor" href="#download" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Download:</h2>
 
 <p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2bYhyLGPP0nffD2k">AlexNet_DSD</a></p>
 
-<p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI">GoogleNet_DSD</a></p>
-
 <p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2b0Wctt6d3NFNz3g">VGG16_DSD</a></p>
 
+<p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI">GoogleNet_DSD</a></p>
+
 <p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2bgMQDqHa43dNYVM">SqueezeNet_DSD</a></p>
+
+<p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2cENv91trxEzvYvs">ResNet18_DSD</a></p>
+
+<p><a href="https://1drv.ms/u/s!AkOf0kjGMRd2cSrUOTES_OAP8f8">ResNet50_DSD</a></p>
+
+<h4>
+<a id="single-crop-224x224-validation-error-rate" class="anchor" href="#single-crop-224x224-validation-error-rate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Single-crop (224x224) validation error rate:</h4>
+
+<table>
+<thead>
+<tr>
+<th>Baseline      </th>
+<th>Top-1 error</th>
+<th>Top-5 error</th>
+<th>DSD       </th>
+<th>Top-1 error</th>
+<th>Top-5 error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AlexNet  </td>
+<td>42.78%    </td>
+<td>19.73%    </td>
+<td>AlexNet_DSD  </td>
+<td>41.48%     </td>
+<td>18.71%</td>
+</tr>
+<tr>
+<td>VGG16        </td>
+<td>31.50%     </td>
+<td>11.32%     </td>
+<td>VGG16_DSD</td>
+<td>27.19%</td>
+<td>8.67%</td>
+</tr>
+<tr>
+<td>GoogleNet</td>
+<td>31.14%    </td>
+<td>10.96%    </td>
+<td>GoogleNet_DSD</td>
+<td>30.02%</td>
+<td>10.34%</td>
+</tr>
+<tr>
+<td>SqueezeNet   </td>
+<td>42.39%      </td>
+<td>19.32%      </td>
+<td>SqueezeNet_DSD</td>
+<td>38.24%</td>
+<td>16.53%</td>
+</tr>
+<tr>
+<td>ResNet18      </td>
+<td>30.43%    </td>
+<td>10.76%  </td>
+<td>ResNet18_DSD</td>
+<td>29.17%</td>
+<td>10.13%</td>
+</tr>
+<tr>
+<td>ResNet50      </td>
+<td>24.01%    </td>
+<td>7.02%      </td>
+<td>ResNet50_DSD</td>
+<td>22.89%       </td>
+<td>6.47%</td>
+</tr>
+</tbody>
+</table>
+
+<p>The beseline of AlexNet, VGG16, GoogleNet, SqueezeNet are from <a href="https://github.com/BVLC/caffe/wiki/Model-Zoo">Caffe Model Zoo</a>.
+The baseline of ResNet18, ResNet50 are from <a href="https://github.com/facebook/fb.resnet.torch">fb.resnet.torch</a> commit 500b698.</p>
         </article>
       </div>
     </div>
