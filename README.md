@@ -9,14 +9,37 @@ Sparsity is a powerful form of regularization. Our intuition is that, once the n
 local minimum given the sparsity constraint, relaxing the constraint gives the network more
 freedom to escape the saddle point and arrive at a higher-accuracy local minimum.
 
-Feel free to use the better-accuracy DSD models to help your research.
+Feel free to use the better-accuracy DSD models to help your research. 
+
 
 ## Download:
 [AlexNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bYhyLGPP0nffD2k)
 
-[GoogleNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI)
-
 [VGG16_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2b0Wctt6d3NFNz3g)
 
+[GoogleNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bAohUrIhGI8T_TI)
+
 [SqueezeNet_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2bgMQDqHa43dNYVM)
+
+[ResNet18_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2cENv91trxEzvYvs)
+
+[ResNet50_DSD](https://1drv.ms/u/s!AkOf0kjGMRd2cSrUOTES_OAP8f8)
+
+
+#### Single-crop (224x224) validation error rate:
+
+| Baseline       | Top-1 error | Top-5 error | DSD           | Top-1 error | Top-5 error |
+| -------------  | ----------- | ----------- | ------------- | ----------- | ----------- |
+| AlexNet        | 42.78%      | 19.73%      | AlexNet_DSD   | 41.48%      | 18.71%      |
+| VGG16          | 31.50%      | 11.32%      | VGG16_DSD     | 27.19%      | 8.67%       | 
+| GoogleNet      | 31.14%      | 10.96%      | GoogleNet_DSD | 30.02%      | 10.34%      |
+| SqueezeNet     | 42.39%      | 19.32%      | SqueezeNet_DSD| 38.24%      | 16.53%      | 
+| ResNet18       | 30.43%      | 10.76%      | ResNet18_DSD  | 29.17%	     | 10.13%      | 
+| ResNet50       | 24.01%      | 7.02%       | ResNet50_DSD  | 22.89%	     | 6.47%       | 
+
+The beseline of AlexNet, VGG16, GoogleNet, SqueezeNet are from [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), ResNet18, ResNet50 are from [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) commit 500b698 on Sep 7.
+
+
+
+
 
