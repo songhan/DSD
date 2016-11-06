@@ -37,7 +37,8 @@ Feel free to use the better-accuracy DSD models to help your research.
 | ResNet18       | 30.43%      | 10.76%      | ResNet18_DSD  | 29.17%	     | 10.13%      | 
 | ResNet50       | 24.01%      | 7.02%       | ResNet50_DSD  | 22.89%	     | 6.47%       | 
 
-The beseline of AlexNet, VGG16, GoogleNet, SqueezeNet are from [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), ResNet18, ResNet50 are from [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) commit 500b698 on Sep 7.
+The beseline of AlexNet, VGG16, GoogleNet, SqueezeNet are from [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo).
+The baseline of ResNet18, ResNet50 are from [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch) commit 500b698.
 
 
 
