@@ -1,0 +1,8 @@
+title: DSD Model Zoo
+description: DSD model zoo. Better accuracy models from DSD training on Imagenet with same model architecture.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-time-machine
+
+gems:
+  - jekyll-mentions
