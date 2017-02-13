@@ -10,6 +10,7 @@ local minimum given the sparsity constraint, relaxing the constraint gives the n
 freedom to escape the saddle point and arrive at a higher-accuracy local minimum.
 
 Feel free to use the better-accuracy DSD models to help your research. If you find DSD traing useful, please cite the following paper:
+
 ```		
 @article{han2016_DSD,
   title={DSD: Dense-Sparse-Dense Training for Deep Neural Networks},
