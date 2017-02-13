@@ -44,6 +44,6 @@ Feel free to use the better-accuracy DSD models to help your research. If you fi
 
 "DSD: Dense-Sparse-Dense Training for Deep Neural Networks"<br>
 Song Han, Jeff Pool, Sharan Narang, Huizi Mao, Enhao Gong, Shijian Tang, Erich Elsen, Peter Vajda, Manohar Paluri, John Tran, Bryan Catanzaro, William J. Dally<br>
-International Conference on Learning Representations (ICLR) 2017
+*International Conference on Learning Representations (ICLR) 2017*
 
 
