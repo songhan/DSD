@@ -11,11 +11,11 @@ freedom to escape the saddle point and arrive at a higher-accuracy local minimum
 
 Feel free to use the better-accuracy DSD models to help your research. If you find DSD traing useful, please cite the following paper:
 
-```		
+
 DSD: Dense-Sparse-Dense Training for Deep Neural Networks},
 Song Han, Jeff Pool, Sharan Narang, Huizi Mao, Enhao Gong, Shijian Tang, Erich Elsen, Peter Vajda, Manohar Paluri, John Tran, Bryan Catanzaro, William J. Dally
 International Conference on Learning Representations (ICLR) 2017
-```
+
 
 
 ## Download:
