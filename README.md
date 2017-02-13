@@ -9,7 +9,15 @@ Sparsity is a powerful form of regularization. Our intuition is that, once the n
 local minimum given the sparsity constraint, relaxing the constraint gives the network more
 freedom to escape the saddle point and arrive at a higher-accuracy local minimum.
 
-Feel free to use the better-accuracy DSD models to help your research. 
+Feel free to use the better-accuracy DSD models to help your research. If you find DSD traing useful, please cite the following paper:
+
+	@article{han2016_DSD,
+	  title={DSD: Dense-Sparse-Dense Training for Deep Neural Networks},
+	  author={Song Han, Jeff Pool, Sharan Narang, Huizi Mao, Enhao Gong, Shijian Tang, Erich Elsen, Peter Vajda, Manohar Paluri, John Tran, Bryan Catanzaro, William J. Dally},
+	  journal={International Conference on Learning Representations (ICLR)},
+	  year={2017}
+	}
+	
 
 
 ## Download:
