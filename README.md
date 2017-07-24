@@ -41,7 +41,7 @@ Feel free to use the better-accuracy DSD models to help your research. If you fi
 | AlexNet        | 42.78%      | 19.73%      | AlexNet_DSD   | 41.48%      | 18.71%      |
 | VGG16          | 31.50%      | 11.32%      | VGG16_DSD     | 27.19%      | 8.67%       | 
 | GoogleNet      | 31.14%      | 10.96%      | GoogleNet_DSD | 30.02%      | 10.34%      |
-| SqueezeNet     | 42.39%      | 19.32%      | SqueezeNet_DSD| 38.24%      | 16.53%      | 
+| SqueezeNet     | 42.56%      | 19.52%      | SqueezeNet_DSD| 38.24%      | 16.53%      | 
 | ResNet18       | 30.43%      | 10.76%      | ResNet18_DSD  | 29.17%	     | 10.13%      | 
 | ResNet50       | 24.01%      | 7.02%       | ResNet50_DSD  | 22.89%	     | 6.47%       | 
 
