@@ -6,7 +6,7 @@
 
 	[HAQ: Hardware-Aware Automated Quantization](https://arxiv.org/pdf/1811.08886.pdf)  (CVPR’19)
 	
-	[Defenstive Quantization](https://openreview.net/pdf?id=ryetZ20ctX) (ICLR'19)
+	[Defenstive Quantization: When Efficiency Meets Robustness](https://openreview.net/pdf?id=ryetZ20ctX) (ICLR'19)
 
 ## DSD Model Zoo
 
